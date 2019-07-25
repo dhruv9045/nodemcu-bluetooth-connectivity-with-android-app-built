@@ -36,9 +36,9 @@ public class MainActivity extends AppCompatActivity {
 
     Button Blu,WiFi,Relay1,Relay2,Relay3,Relay4,All,Rst;
     Boolean isClickedDummy1,isClickedDummy2,isRelay1,isRelay2,isRelay3,isRelay4,isAll; // global after the declaration of your class
-    static String MQTTHOST = "tcp://postman.cloudmqtt.com:12072";
-    static String USERNAME = "zvibyzxz";
-    static String PASSWORD = "YHJqD8Vx7DeB";
+    static String MQTTHOST = "tcp://****.com:**PORT**";
+    static String USERNAME = "*****";
+    static String PASSWORD = "******";
     String topicStr = "LED";
     MqttAndroidClient client;
 
