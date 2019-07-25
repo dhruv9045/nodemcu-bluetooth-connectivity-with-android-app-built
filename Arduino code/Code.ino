@@ -4,14 +4,14 @@
 #include <PubSubClient.h>
   
 //Enter your wifi credentials
-const char* ssid = "ESP8266";  
-const char* password =  "123456789";
+const char* ssid = "******";  
+const char* password =  "*******";
  
 //Enter your mqtt server configurations
-const char* mqttServer = "postman.cloudmqtt.com";    //Enter Your mqttServer address
-const int mqttPort = 12072;       //Port number
-const char* mqttUser = "zvibyzxz"; //User
-const char* mqttPassword = "YHJqD8Vx7DeB"; //Password
+const char* mqttServer = "********.com";    //Enter Your mqttServer address
+const int mqttPort = ****PORT***;       //Port number
+const char* mqttUser = "********"; //User
+const char* mqttPassword = "*******"; //Password
  
 WiFiClient espClient;
 PubSubClient client(espClient);
