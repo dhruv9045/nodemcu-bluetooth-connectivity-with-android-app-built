@@ -38,7 +38,7 @@ void setup()
   {
     delay(100);
     Serial.println("Connecting to WiFi..");
-    delay(2000);
+    delay(3000);                                  //time to take connectivity (speed of connectivity time)
     break;
   }
   Serial.print("Connected to WiFi :");
